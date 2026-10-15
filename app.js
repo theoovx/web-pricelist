@@ -355,7 +355,7 @@
     return el("div", { class: "abody" }, ...content);
   }
   function renderRules() {
-    const intro = D.meta.section_intro_source;
+    const intro = D.meta.section_intro;
     $("#rules-intro").textContent = intro || "";
 
     const box = $("#rules-list");

@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "status": "DRAFT for administrator review",
+    "section_intro": "Informasi yang perlu dibaca sebelum melakukan pemesanan.",
+    "text_policy": "Rules telah dirapikan agar lebih mudah dipahami. Ketentuan khusus tetap perlu dikonfirmasi kepada admin.",
+    "notes": [
+      "Metode pembayaran, refund, dan pembatalan belum ditetapkan.",
+      "Garansi mengikuti ketentuan yang tercantum pada paket terkait di pricing.json."
+    ]
+  },
+  "rules": [
+    {
+      "id": "rule-sharing-vs-private",
+      "scope": "general",
+      "app_id": null,
+      "title": "Perbedaan Sharing dan Private",
+      "blocks": [
+        {
+          "heading": "Sharing",
+          "definition": "Satu akun digunakan oleh beberapa orang.",
+          "advantages": [
+            "Harga lebih terjangkau.",
+            "Kualitas dan fitur aplikasi pada dasarnya sama dengan paket private, sesuai paket yang ditawarkan."
+          ],
+          "disadvantages": [
+            "Login dibatasi sesuai ketentuan paket, umumnya satu perangkat.",
+            "Pada aplikasi streaming tertentu, penggunaan bersama dapat menyebabkan limit atau konflik sesi sehingga kamu mungkin perlu menunggu giliran."
+          ]
+        },
+        {
+          "heading": "Private",
+          "definition": "Akun atau akses disediakan untuk satu pengguna sesuai ketentuan paket.",
+          "advantages": [
+            "Dapat digunakan pada lebih dari satu perangkat jika paket mengizinkan.",
+            "Pengaturan kata sandi mengikuti ketentuan paket dan penyedia akun.",
+            "Pada aplikasi streaming tertentu, risiko bentrok penggunaan bersama dapat dihindari."
+          ],
+          "disadvantages": [
+            "Harga biasanya lebih mahal dibandingkan paket sharing."
+          ]
+        }
+      ],
+      "review": [
+        {
+          "issue": "Pastikan batas perangkat, hak mengganti kata sandi, dan definisi akses private sesuai ketentuan masing-masing paket."
+        }
+      ]
+    },
+    {
+      "id": "rule-garansi",
+      "scope": "general",
+      "app_id": null,
+      "title": "Informasi Garansi",
+      "paragraphs": [
+        "Garansi merupakan jaminan yang berlaku sesuai syarat dan ketentuan produk atau paket yang dibeli.",
+        "Ketentuan garansi dapat berbeda untuk setiap aplikasi dan paket. Sebelum memesan, periksa informasi garansi pada detail paket atau tanyakan langsung kepada admin."
+      ],
+      "bullets": [
+        "Periksa durasi dan cakupan garansi sebelum melakukan pembelian.",
+        "Ikuti prosedur klaim yang diberikan admin jika mengalami kendala.",
+        "Garansi tidak otomatis berarti pengembalian uang. Kebijakan refund harus dikonfirmasi kepada admin."
+      ],
+      "review": [
+        {
+          "issue": "Pastikan seluruh informasi garansi sesuai ketentuan resmi setiap paket. Jangan menjanjikan refund tanpa persetujuan admin."
+        }
+      ]
+    },
+    {
+      "id": "rule-admin-availability",
+      "scope": "general",
+      "app_id": null,
+      "title": "Jam Aktif Admin",
+      "paragraphs": [
+        "Admin tidak selalu tersedia setiap saat, terutama pada tengah malam, dini hari, atau pagi hari. Admin juga memiliki aktivitas pribadi dan pekerjaan di luar layanan ini.",
+        "Mohon bersabar jika pesan belum dibalas dan tetap gunakan bahasa yang sopan saat berkomunikasi. Terima kasih sudah saling menghargai."
+      ],
+      "review": []
+    },
+    {
+      "id": "rule-netflix-1-profile-1-user",
+      "scope": "app",
+      "app_id": "netflix",
+      "title": "Apa Arti 1 Profile 1 User?",
+      "bullets": [
+        "Kamu mendapatkan satu profil dalam akun Netflix sesuai paket yang dibeli.",
+        "Profil tersebut diperuntukkan bagi satu pengguna sesuai ketentuan paket.",
+        "Jika beberapa orang menggunakan akun yang sama, setiap pengguna harus memakai profilnya masing-masing dan tidak mengganggu profil pengguna lain."
+      ],
+      "review": [
+        {
+          "issue": "Pastikan penjelasan ini sesuai dengan sistem akun dan ketentuan paket Netflix yang dijual."
+        }
+      ]
+    }
+  ]
+}

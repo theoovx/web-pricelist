@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mattheo</title>
+    <meta
+      name="description"
+      content="Daftar aplikasi premium dan harga dari Mattheo. Pesan lewat admin via WhatsApp." />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <video id="bg-video" autoplay muted loop playsinline preload="auto">
+      <source src="assets/background.mp4" type="video/mp4" />
+    </video>
+    <a class="skip" href="#products">Lewati ke katalog</a>
+
+    <header class="top" id="top">
+      <a class="brand" href="#home" data-brand>Mattheo</a>
+      <button
+        class="menu"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav">
+        Menu
+      </button>
+      <nav id="nav" aria-label="Navigasi utama">
+        <a href="#home" data-view="home">Home</a>
+        <a href="#pricelist" data-view="pricelist">Pricelist</a>
+        <a href="#rules" data-view="rules">Rules</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="wrap hero" aria-labelledby="h-home">
+        <h1 id="h-home" data-brand>Mattheo</h1>
+        <p class="tagline" id="tagline"></p>
+        <p class="welcome" id="welcome"></p>
+        <p class="actions">
+          <a class="btn primary" href="#pricelist" data-view="pricelist">
+            Lihat Pricelist
+          </a>
+        </p>
+        <p id="status" role="status">Memuat data...</p>
+      </section>
+
+      <section id="products" class="wrap sec" aria-labelledby="h-products">
+        <h2 id="h-products">Katalog</h2>
+        <label class="lbl" for="q">Cari nama aplikasi</label>
+        <input
+          id="q"
+          type="search"
+          autocomplete="off"
+          placeholder="Contoh: canva" />
+        <div
+          id="chips"
+          class="chips"
+          role="group"
+          aria-label="Filter kategori"></div>
+        <p class="hint">
+          Kategori adalah pengelompokan sementara untuk memudahkan pencarian.
+        </p>
+        <p id="count" class="count" aria-live="polite"></p>
+        <ul id="catalog" class="ledger"></ul>
+        <div id="empty" class="empty" hidden>
+          <p>Tidak ada aplikasi yang cocok dengan pencarian Anda.</p>
+          <button class="btn" type="button" id="reset">
+            Hapus pencarian dan filter
+          </button>
+        </div>
+      </section>
+
+      <section id="rules" class="wrap sec" aria-labelledby="h-rules">
+        <h2 id="h-rules">Aturan</h2>
+        <p class="hint" id="rules-intro"></p>
+        <div id="rules-list"></div>
+      </section>
+
+      <section id="contact" class="wrap sec" aria-labelledby="h-contact">
+        <h2 id="h-contact">Hubungi admin</h2>
+        <ul id="contact-list" class="admins"></ul>
+        <div id="contact-note" class="note"></div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="wrap">
+        <p class="brand-foot" data-brand>Elle's</p>
+        <nav aria-label="Navigasi footer" class="flinks">
+          <a href="#products">Katalog</a>
+          <a href="#rules">Aturan</a>
+          <a href="#contact">Hubungi admin</a>
+        </nav>
+        <ul id="foot-contacts" class="flinks"></ul>
+        <p class="small" id="disclaimer"></p>
+        <p class="small" id="copyright"></p>
+      </div>
+    </footer>
+
+    <dialog id="detail" aria-labelledby="d-title">
+      <div class="dh">
+        <h2 id="d-title"></h2>
+        <button class="x" type="button" id="d-close">Tutup</button>
+      </div>
+      <div class="db" id="d-body"></div>
+    </dialog>
+  </body>
+</html>

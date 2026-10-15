@@ -1,0 +1,440 @@
+{
+  "_meta": {
+    "source": "https://elle-s.carrd.co/ (read via text extraction only; images not visually inspected)",
+    "status": "DRAFT for administrator review",
+    "rules": "Feature strings are copied verbatim from the source, including spelling and typos. Plan-specific conditions live in pricing.json. Prices live ONLY in pricing.json.",
+    "category_status": "Source has no categories. Values below are a proposed grouping and need admin approval.",
+    "icon_basis_codes": {
+      "alt_text_matches": "Source image alt text names this app. Image itself not viewed; alt text on this page is not fully reliable.",
+      "alt_text_placeholder_positional_guess": "Alt text is a repeated placeholder (Netflix/Canva/VSCO/Untitled). Mapping is a guess from slide position."
+    },
+    "icon_policy": "No Carrd-hosted images are hotlinked. local_file stays null until the admin supplies authorized icon files; the site shows a text monogram meanwhile."
+  },
+  "apps": [
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "name_source": "netflix",
+      "category": { "value": "streaming", "status": "proposed_unconfirmed" },
+      "icon": {
+        "source_image": "assets/logo netflix.jfif",
+        "source_alt": "Netflix",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [
+        "login only 1 device",
+        "available all device ( laptop, hp, tv, dll )",
+        "support resolusi 4K"
+      ],
+      "review": [
+        {
+          "field": "features",
+          "issue": "'login only 1 device' next to 'available all device' could be read as contradictory; confirm intended meaning (all device types, one at a time?)."
+        }
+      ]
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "name_source": "canva",
+      "category": {
+        "value": "editing-design",
+        "status": "proposed_unconfirmed"
+      },
+      "icon": {
+        "source_image": "assets/logo canva.jfif",
+        "source_alt": "Canva",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [],
+      "review": []
+    },
+    {
+      "id": "vsco",
+      "name": "VSCO",
+      "name_source": "vsco",
+      "category": {
+        "value": "editing-design",
+        "status": "proposed_unconfirmed"
+      },
+      "icon": {
+        "source_image": "assets/logo vsco.jfif",
+        "source_alt": "VSCO",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [
+        "email from seller",
+        "paket pro unlocked all effect",
+        "sharing account"
+      ],
+      "review": []
+    },
+    {
+      "id": "picsart",
+      "name": "Picsart",
+      "name_source": "picsart",
+      "category": {
+        "value": "editing-design",
+        "status": "proposed_unconfirmed"
+      },
+      "icon": {
+        "source_image": "assets/logo picsart.jfif",
+        "source_alt": "Picsart",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [
+        "available login 3-4 device",
+        "unlocked all effect",
+        "no watermark & iklan",
+        "email seller"
+      ],
+      "review": []
+    },
+    {
+      "id": "youku",
+      "name": "Youku",
+      "name_source": "youku",
+      "category": { "value": "streaming", "status": "proposed_unconfirmed" },
+      "icon": {
+        "source_image": "assets/logo youku.jfif",
+        "source_alt": "Youku",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [
+        "bisa nonton semua film",
+        "login only 1 device",
+        "tidak support tv"
+      ],
+      "review": []
+    },
+    {
+      "id": "bsation",
+      "name": "Bsation",
+      "name_source": "bsation",
+      "category": { "value": "streaming", "status": "proposed_unconfirmed" },
+      "icon": {
+        "source_image": "assets/logo bstation.png",
+        "source_alt": "Bsation",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [
+        "email seller only",
+        "sharing beresiko limit ( tabrakan )",
+        "available login only 1 device",
+        "no watermark, iklan dll"
+      ],
+      "review": [
+        {
+          "field": "name",
+          "issue": "Source spells it 'bsation'. Kept as written; confirm the correct brand spelling."
+        },
+        {
+          "field": "icon",
+          "issue": "Same file name as the VSCO image (7c71ad5c.jpg). See VSCO."
+        }
+      ]
+    },
+    {
+      "id": "iflix",
+      "name": "Iflix",
+      "name_source": "iflix",
+      "category": { "value": "streaming", "status": "proposed_unconfirmed" },
+      "icon": {
+        "source_image": "assets/logo iflix.png",
+        "source_alt": "Iflix",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": ["login 1 device only", "no iklan, bebas nonton"],
+      "review": []
+    },
+    {
+      "id": "viu",
+      "name": "Viu",
+      "name_source": "viu premium biasa",
+      "category": { "value": "streaming", "status": "proposed_unconfirmed" },
+      "icon": {
+        "source_image": "assets/logo viu.png",
+        "source_alt": "Viu",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": ["avail log 3-4 device", "paket premium"],
+      "review": [
+        {
+          "field": "name",
+          "issue": "Source heading is 'viu premium biasa'. Confirm what 'biasa' refers to (a plan type?) before it is shown."
+        }
+      ]
+    },
+    {
+      "id": "alightmotion",
+      "name": "Alightmotion",
+      "name_source": "alightmotion premium",
+      "category": {
+        "value": "editing-design",
+        "status": "proposed_unconfirmed"
+      },
+      "icon": {
+        "source_image": "assets/logo am.jfif",
+        "source_alt": "Alightmotion",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [
+        "unlocked all effect",
+        "no watermark",
+        "private bisa dijual kembali"
+      ],
+      "review": [
+        {
+          "field": "name",
+          "issue": "Source writes 'alightmotion'. Kept as written; confirm preferred display name (e.g. 'Alight Motion')."
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "name_source": "amazon / amazone",
+      "category": { "value": "streaming", "status": "proposed_unconfirmed" },
+      "icon": {
+        "source_image": "assets/logo amazon.png",
+        "source_alt": "Amazon",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [
+        "unlocked all effect",
+        "shared login 1 device, private login up too 3-4 device"
+      ],
+      "review": [
+        {
+          "field": "product",
+          "issue": "Source only says 'amazon'. Which Amazon service (e.g. Prime Video) is not stated. Category is therefore also a guess."
+        },
+        {
+          "field": "features",
+          "issue": "'unlocked all effect' looks copied from an editing app; confirm it applies here."
+        },
+        { "field": "name", "issue": "Source uses both 'amazon' and 'amazone'." }
+      ]
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut",
+      "name_source": "capcut premium",
+      "category": {
+        "value": "editing-design",
+        "status": "proposed_unconfirmed"
+      },
+      "icon": {
+        "source_image": "assets/logo capcut.jfif",
+        "source_alt": "CapCut",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [],
+      "review": []
+    },
+    {
+      "id": "getcontact",
+      "name": "GetContact",
+      "name_source": "getcontact",
+      "category": { "value": "utility-ai", "status": "proposed_unconfirmed" },
+      "icon": {
+        "source_image": "assets/logo getcontact.png",
+        "source_alt": "GetContact",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": ["bawa nomor sendiri"],
+      "review": []
+    },
+    {
+      "id": "disney",
+      "name": "Disney",
+      "name_source": "disney",
+      "category": { "value": "streaming", "status": "proposed_unconfirmed" },
+      "icon": {
+        "source_image": "assets/logo disney.jfif",
+        "source_alt": "Untitled",
+        "basis": "alt_text_placeholder_positional_guess",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [
+        "shared 3user",
+        "paket premium, all film",
+        "avail log all device",
+        "login 1 device only"
+      ],
+      "review": [
+        {
+          "field": "product",
+          "issue": "Source says only 'disney'. Exact service name (e.g. Disney+ Hotstar) not stated."
+        },
+        {
+          "field": "features",
+          "issue": "'avail log all device' vs 'login 1 device only' wording; confirm intended meaning."
+        }
+      ]
+    },
+    {
+      "id": "vidio",
+      "name": "Vidio Platinum",
+      "name_source": "vidio platinum",
+      "category": { "value": "streaming", "status": "proposed_unconfirmed" },
+      "icon": {
+        "source_image": "assets/logo vidio.jfif",
+        "source_alt": "Vidio Platinum",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [],
+      "review": []
+    },
+    {
+      "id": "wetv",
+      "name": "WeTV",
+      "name_source": "wetv",
+      "category": { "value": "streaming", "status": "proposed_unconfirmed" },
+      "icon": {
+        "source_image": "assets/logo wetv.jfif",
+        "source_alt": "WeTV",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [],
+      "review": []
+    },
+    {
+      "id": "hbo",
+      "name": "HBO",
+      "name_source": "hbo",
+      "category": { "value": "streaming", "status": "proposed_unconfirmed" },
+      "icon": {
+        "source_image": "assets/logo hbo.jfif",
+        "source_alt": "HBO",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [
+        "login 1 device only",
+        "no iklan, watermark",
+        "unlocked all film hbo"
+      ],
+      "review": [
+        {
+          "field": "features",
+          "issue": "'no iklan, watermark' reads as 'no ads, no watermark' but is written ambiguously; confirm."
+        }
+      ]
+    },
+    {
+      "id": "iqiyi",
+      "name": "iQIYI",
+      "name_source": "iqiyi",
+      "category": { "value": "streaming", "status": "proposed_unconfirmed" },
+      "icon": {
+        "source_image": "assets/logo iqiyi.jfif",
+        "source_alt": "iQIYI",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": ["login 1 device only", "unlocked smua film"],
+      "review": []
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "name_source": "chatgpt",
+      "category": { "value": "utility-ai", "status": "proposed_unconfirmed" },
+      "icon": {
+        "source_image": "assets/logo gpt.jfif",
+        "source_alt": "ChatGPT",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [
+        "login 1 device only",
+        "premium 4.0 bisa mengakses lebih dari 80 pertanyaan / 3 jam."
+      ],
+      "review": [
+        {
+          "field": "features",
+          "issue": "'premium 4.0' and '80 pertanyaan / 3 jam' are capability claims that may be outdated or inaccurate; confirm before publishing as fact."
+        }
+      ]
+    },
+    {
+      "id": "lightroom",
+      "name": "Lightroom",
+      "name_source": "lightroom",
+      "category": {
+        "value": "editing-design",
+        "status": "proposed_unconfirmed"
+      },
+      "icon": {
+        "source_image": "assets/logo lightroom.jfif",
+        "source_alt": "Lightroom",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [],
+      "review": []
+    },
+    {
+      "id": "wink-ios",
+      "name": "Wink iOS",
+      "name_source": "wink ios",
+      "category": {
+        "value": "editing-design",
+        "status": "proposed_unconfirmed"
+      },
+      "icon": {
+        "source_image": "assets/logo wink.jfif",
+        "source_alt": "Wink iOS",
+        "basis": "alt_text_matches",
+        "local_file": null,
+        "status": "unconfirmed"
+      },
+      "features": [
+        "harga bisa berubah\" tergantung stok",
+        "support iphone only, tidak bisa dipakai di android !",
+        "LOGIN ONLY 1 DEVICE, tidak bisa lebih",
+        "stok sangat terbatas untuk produk ini, silahkan tanyakan ketersediaan kepada admin terlebih dahulu"
+      ],
+      "review": [
+        {
+          "field": "features",
+          "issue": "First line contains a stray quote mark ('berubah\"'), probably 'berubah-ubah'. Kept as written; confirm."
+        }
+      ]
+    }
+  ]
+}

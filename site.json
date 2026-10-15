@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "status": "DRAFT for administrator review",
+    "source": "https://elle-s.carrd.co/"
+  },
+  "brand": {
+    "name": "Mattheo",
+    "tagline": "Premium Apps at Affordable Prices",
+    "welcome": [
+      "Welcome to Mattheo!",
+      "Your place for premium applications.",
+      "Simple. Easy. Affordable.",
+      "Choose your app and enjoy premium features."
+    ],
+    "logo": null,
+    "colors": null,
+    "branding_note": "Custom Mattheo branding. Original logo and brand colors can be configured later."
+  },
+  "contacts": [
+    {
+      "id": "admin-1",
+      "label": "Admin 1 (Elle)",
+      "url": "https://wa.me/6285835974167"
+    },
+    {
+      "id": "admin-1",
+      "label": "Admin 1 (Elle 2)",
+      "url": "https://wa.me/6285834665028"
+    },
+    {
+      "id": "admin-2",
+      "label": "Admin 2 (Ivan)",
+      "url": "https://wa.me/6283194662927"
+    },
+    {
+      "id": "admin-3",
+      "label": "Admin 3 (Intan)",
+      "url": "https://wa.me/6282117207243"
+    }
+  ],
+  "proposed_by_designer": {
+    "status": "needs_admin_approval",
+    "featured_app_ids": [],
+    "featured_basis": "No featured applications. Products are displayed in the pricelist catalog.",
+    "order_message_template": "Halo admin, mau langganan {app} - {plan} - theo.",
+    "footer_disclaimer": "Mattheo tidak berafiliasi dengan penyedia aplikasi mana pun. Nama dan logo aplikasi merupakan milik masing-masing pemiliknya.",
+    "footer_copyright": "© Mattheo"
+  }
+}
